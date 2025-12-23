@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-8 border-t border-gray-700 pt-8 text-center text-sm text-gray-500">
-                    &copy; {new Date().getFullYear()} Final Year Project. All rights reserved.
+                    &copy; {new Date().getFullYear()} AI-Powered EMG Prosthesis. All rights reserved.
                 </div>
             </div>
         </footer>

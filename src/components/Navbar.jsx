@@ -28,7 +28,6 @@ const Navbar = () => {
                             <Activity className="h-8 w-8 text-accent" />
                             <div className="flex flex-col">
                                 <span className="text-white text-lg font-bold tracking-wide leading-tight">AI-Powered EMG Prosthesis</span>
-                                <span className="text-gray-400 text-xs uppercase tracking-wider">Final Year Project</span>
                             </div>
                         </Link>
                     </div>
