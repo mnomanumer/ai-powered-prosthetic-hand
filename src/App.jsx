@@ -9,6 +9,7 @@ import SystemArchitecture from './pages/SystemArchitecture';
 import ExperimentalValidation from './pages/ExperimentalValidation';
 import SystemAnatomy from './pages/SystemAnatomy';
 import Contact from './pages/Contact';
+import RealTimeDemo from './pages/RealTimeDemo';
 
 const CustomCursor = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -57,6 +58,7 @@ const AnimatedRoutes = () => {
         <Route path="/validation" element={<PageWrapper><ExperimentalValidation /></PageWrapper>} />
         <Route path="/anatomy" element={<PageWrapper><SystemAnatomy /></PageWrapper>} />
         <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
+        <Route path="/demo" element={<PageWrapper><RealTimeDemo /></PageWrapper>} />
       </Routes>
     </AnimatePresence>
   );
